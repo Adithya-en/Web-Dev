@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: lightyellow; 
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: blue; 
+    margin: 10px 0;
+}
+
+img {
+    margin-top: 20px;
+    border: 3px solid green; 
+    border-radius: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+td {
+    border: 2px solid black; 
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+#customList {
+    list-style-type: circle;
+    font-style: italic;
+}
+
+#customList a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+#customList a:link {
+    color: blue;
+}
+
+#customList a:visited {
+    color: purple;
+}
+
+#customList a:hover {
+    color: red;
+}
+
+#customList a:active {
+    color: green;
+}
+
+.cbutton {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cbutton:hover {
+    background-color: darkorange;
+}

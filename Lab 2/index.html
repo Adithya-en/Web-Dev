@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        h2 {
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2> Question 1 </h2>
+    <p> Write an HTML snippetthat creates a div with a green border, 15pxpadding,
+        and a light gray background using inline styles.
+    </p>
+
+    <h2> Answer </h2>
+    <div style="border: 2px solid green; padding: 15px; background-color: lightgray;">
+        This is a style div
+    </div>
+
+    <hr>
+
+    <h2> Question 2 </h2>
+    <p> How would you create an inline style that sets the font size to 24px, font weightto 
+        bold, and font style to italic, background color yellow with red color fontfor an h1 
+        tag?
+    </p>
+
+    <h2> Answer </h2>
+    <h1 style="font-size: 24px; font-weight: bold; font-style: italic; background-color: yellow; color: red;">
+        Styled Heading
+    </h1>
+
+    <hr>
+
+    <h2> Question 3 </h2>
+    <p> Create 3 paragraphs of 100 words. Give a title and provide a heading for each 
+        paragraph. Write an internal style rule.
+        a. Highlightthe important words in all paragraphs using the "highlight" class, 
+        which has a yellow backdrop and bold text.
+        b. Thetitle should be centered and red colour.
+        c. The header should be in h2 size and underlined.
+    </p>
+
+    <h2> Answer </h2>
+    <p> <h1>Informative Writing</h1>
+
+        <h2>Understanding Climate Change</h2>
+        <p>Climate change is a <span class="highlight">global concern</span> affecting all life forms. 
+            Rising temperatures lead to melting glaciers, causing <span class="highlight">sea level rise</span>.
+            Deforestation and pollution contribute to <span class="highlight">greenhouse gas emissions</span>, worsening the problem.
+            Scientists urge nations to implement <span class="highlight">sustainable practices</span> like
+            renewable energy and afforestation. By taking <span class="highlight">collective action</span>, we can slow down its impacts.
+            Governments and individuals must work together to reduce <span class="highlight">carbon footprints</span> and adopt eco-friendly habits.</p>
+    
+        <h2>The Importance of Healthy Eating</h2>
+        <p>A balanced diet ensures a <span class="highlight">healthy lifestyle</span>.
+            Consuming fresh fruits, vegetables, and proteins provides essential <span class="highlight">nutrients</span> 
+            for body growth and repair. Avoiding processed foods reduces the risk of <span class="highlight">chronic diseases</span> 
+            such as obesity and diabetes. Hydration plays a key role in <span class="highlight">digestion</span> and organ function.
+            Experts recommend regular meals with proper <span class="highlight">portion control</span>. 
+            Developing <span class="highlight">healthy eating habits</span> from a young age promotes long-term well-being and boosts <span class="highlight">immunity</span>.</p>
+    
+        <h2>Benefits of Regular Exercise</h2>
+        <p>Exercise plays a vital role in <span class="highlight">physical and mental health</span>.
+            Regular activity improves <span class="highlight">cardiovascular health</span> and strengthens muscles.
+            It helps in maintaining a <span class="highlight">healthy weight</span> and reducing stress.
+            Activities like running, yoga, and weight training boost <span class="highlight">endurance</span> and flexibility. 
+            Studies show that exercise releases <span class="highlight">endorphins</span>, which enhance mood and energy levels. 
+            A <span class="highlight">consistent fitness routine</span> leads to a longer, healthier life, improving overall <span class="highlight">well-being</span>.</p></p>>
+
+    <hr>
+
+    <h2> Question 4 </h2>
+    <p> Design a simple web page using an external CSS and a universal selector that 
+        includes the following:
+        a. Title
+        b. Three paragraphs with headings
+        c. An Image
+        Ensure the following styles:
+        i. The webpage uses Roboto fontfrom the external CSS file
+        ii. and Apply styles to change the font color of all paragraphs to blue 
+        and setthe background color ofthe body to light yellow
+        iii. Image border 3px with a green border color
+        iv. Reset the margin and the padding.
+        
+    </p>
+
+    <h2> Answer </h2>
+    <h1> Web Page </h1>
+
+    <h2>About Nature</h2>
+    <p>Nature is filled with <strong>beauty and tranquility</strong>. The forests, mountains, and rivers provide a peaceful escape from the bustling city life. 
+        Protecting nature ensures a healthier environment for future generations.</p>
+
+    <h2>Importance of Technology</h2>
+    <p>Technology has revolutionized our <strong>daily lives</strong>. From smartphones to artificial intelligence, innovations make tasks easier and enhance communication. 
+        Responsible use of technology leads to greater progress.</p>
+
+    <h2>Healthy Living</h2>
+    <p>Maintaining a <strong>healthy lifestyle</strong> involves eating nutritious food, exercising regularly, and getting enough rest. 
+        A balanced life promotes both physical and mental well-being.</p>
+
+    <img src="nature.jpg" alt="Beautiful Nature" width="500">
+    
+    <hr>
+
+    <h2> Question 5 </h2>
+    <p> Create a simple table with atleast 10 rows and 3 columns. Use group selectors to 
+        set the border for alltable cells (td) to 2 pixel solid black and change the 
+        background colorfor the alternate rows to green and grey(or any color of your 
+        choice). Follow the table heading style as shown in the picture.
+    </p>
+
+    <h2> Answer </h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Second Name</th>
+                <th>Roll Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>101</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>102</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Brown</td>
+                <td>103</td>
+            </tr>
+            <tr>
+                <td>Emily</td>
+                <td>Davis</td>
+                <td>104</td>
+            </tr>
+            <tr>
+                <td>Chris</td>
+                <td>Wilson</td>
+                <td>105</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>Miller</td>
+                <td>106</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Anderson</td>
+                <td>107</td>
+            </tr>
+            <tr>
+                <td>Emma</td>
+                <td>Thomas</td>
+                <td>108</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Harris</td>
+                <td>109</td>
+            </tr>
+            <tr>
+                <td>Olivia</td>
+                <td>Martinez</td>
+                <td>110</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2> Question 6 </h2>
+    <p> . Create an unordered list with 3 items. The items should be clickable. Use the id 
+        selector to ensure
+        a. They do not have an underline beneath
+        b. change the font style of all listitems to italic and change the list style to 
+        circle.
+        c. Apply the following Link Pseudo-Classes and change the colours of the links
+        i. :link
+        ii. :visited
+        iii. :hover
+        iv. :active
+    </p>
+    
+    <h2> Answer </h2>
+    <ul id="customList">
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    </ul>
+
+    <hr>
+
+    <h2> Question 7 </h2>
+    <p>Create four buttons. Use a class to change the background color of all buttons to 
+        orange and the text color to white with a rounded corner and a hovering button   
+    </p>
+    
+    <h2> Answer </h2>
+    <button class="cbutton">Button 1</button>
+    <button class="cbutton">Button 2</button>
+    <button class="cbutton">Button 3</button>
+    <button class="cbutton">Button 4</button>
+
+</body>
+</html>
