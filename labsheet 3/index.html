@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Sheet 3 Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lab Sheet 3 Solutions</h1>
+
+    <h2>Grid Layout</h2>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+    </div>
+
+    <h2>Page Layout</h2>
+    <div class="layout-container">
+        <div class="header">Header</div>
+        <div class="landing-page">Landing Page</div>
+        <div class="nav">About us</div>
+        <div class="nav">Vision</div>
+        <div class="nav">Contact us</div>
+    </div>
+
+    <h2>Sidebar Layout</h2>
+    <div class="layout-2">
+        <div class="aside">Asidebar1</div>
+        <div class="content">Main content</div>
+    </div>
+    <div class="footer">Footer</div>
+
+    <h2>Resource Links</h2>
+    <ul>
+        <li><a href="https://www.example.com" target="my_area" onclick="openInNewTab(event, this.href)">Example Site</a></li>
+        <li><a href="https://www.wikipedia.org" target="my_area" onclick="openInNewTab(event, this.href)">Wikipedia</a></li>
+    </ul>
+    <iframe name="my_area" src="amrita college.jpg" width="400" height="400" scrolling="yes"></iframe>
+    <p>&copy; 2025 Amrita Viswavidyapeetham. All rights reserved.</p>
+
+    <script>
+        function openInNewTab(event, url) {
+            event.preventDefault();
+            var iframe = document.querySelector('iframe[name="my_area"]');
+            try {
+                iframe.src = url;
+            } catch (e) {
+                window.open(url, '_blank');
+            }
+        }
+    </script>
+
+    <h2>Responsive Image Layout</h2>
+    <div class="image-container">
+        <img src="nature 1.jpg" alt="Image 1">
+        <img src="nature 2.jpg" alt="Image 2">
+        <img src="nature 3.jpg" alt="Image 3">
+    </div>
+</body>
+</html>
