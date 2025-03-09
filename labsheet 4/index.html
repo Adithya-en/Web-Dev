@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1> Place your orders here </h1>
+
+    <form>
+        <label for="fullname">Full Name: </label>
+        <input type="text" id="fullname" placeholder="Enter your full name"><br><br>
+
+        <label> Gender: </label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male </label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label> <br><br>
+
+        <label for="email"> Email: </label>
+        <input type="email" id="email" placeholder="Enter your email"> <br><br>
+
+        <label for="mealtype"> Meal type: </label>
+        <select id="mealtype">
+            <option>Breakfast</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+        </select><br><br>
+
+        <label for="favorite"> Choose your favorite: </label>
+        <select id="favorite">
+            <option>Select Meal</option>
+            <option>Burger</option>
+            <option>Pizza</option>
+            <option>Pasta</option>
+        </select><br><br>
+
+        <label for="photo"> Customer's photo with food: </label>
+        <input type="file" id="photo"><br><br>
+
+        <label for="feedback">Your feedback here:</label><br>
+        <textarea id="feedback" rows="4" cols="40" placeholder="Enter your message here"></textarea><br><br>
+
+        <button class="primary" type="submit">Submit </button>
+        <button class="secondary" type="reset">Reset </button>
+        <button class="info" type="button">Info </button>
+    </form>
+
+</body>
+</html>
